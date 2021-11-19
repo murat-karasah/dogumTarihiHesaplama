@@ -9,11 +9,11 @@ namespace dogumTarihiHesaplama
             DateTime tarih = DateTime.Now;
             Console.WriteLine("Doğum Yılınızı Giriniz");
             int yıl = tarih.Year;
-        //    int dogumtarihi = Convert.ToInt32(Console.ReadLine());
+           int dogumtarihi = Convert.ToInt32(Console.ReadLine());
 
-          //  int sonuc = yıl - dogumtarihi;
+            int sonuc = yıl - dogumtarihi;
 
-         //   Console.WriteLine("Yaşınız : " + sonuc);
+           Console.WriteLine("Yaşınız : " + sonuc);
             Console.Write
                 ("        ^_^\n|m|_   (· ·)\n\\ /    _| |_ \n|_|___/     \\ \n|____      | \\\n     |     / /\n     |     \\/");
         }
